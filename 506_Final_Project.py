@@ -235,17 +235,6 @@ song_lst()
 print(len(song_list_instance))
 
 
-#Sort the song instances you get back from the iTunes API by the songs’ length, longest to
-#shortest.
-#• Create a CSV file with information about all of those songs:
-#o The song title
-#o The artist of the song
-#o The length of the song
-#o The album the song is on
-#o And any other column(s) of information you want
-
-# name variables and sort the dictionary by values of song length
-
 for each in song_list_instance:
 	print(each)
 
@@ -273,16 +262,6 @@ with open('iTunesSongs.csv', 'w', newline="") as f:
 
 
 
-
-
-
-		# Create a song_lst method that creates a list of instances of the class Song
-# 4. Create a function that sorts the song instances you get back from iTunes API Search by the song's length - largest to shortest
-# 5. Create a .CSV file with information about the songs
-## song title
-## artist of the song
-## length of the song
-## name of the album the song is on
 
 
 
