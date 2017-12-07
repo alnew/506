@@ -140,7 +140,7 @@ def construct_cache_key(name, mtype):
 	return '#'.join(name.split()) + '_' + mtype
 
 
-#### request to the iTunes API #### Look at section10_solution.py file for guidance 
+#### request to the iTunes API #########
 
 # 2. Search the iTunes cache using the most common word from most_common - this is above with the Facebook code 
 
@@ -256,6 +256,7 @@ songz = sorted(song_list_instance, key=lambda song: song.length, reverse=True)
 for each in songz:
 	print(each)
 
+# make sure to import csv at top
 masterlist = []
 names = ['Song Title', 'Song Album', 'Song Artist', 'Song Length']
 masterlist.append(names)
